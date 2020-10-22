@@ -1,25 +1,29 @@
 .dark-design .primary-color-1 {
-    background-color: aquamarine;
+    background-color: #7A7F4F;
 }
 
 .dark-design .primary-color-2 {
-    background-color: blueviolet;
+    background-color: #505055;
 }
 
 .dark-design .primary-color-3 {
-    background-color: coral;
+    background-color: #989D75;
 }
 
 .dark-design .accent-color-1 {
-    background-color: darkslategrey;
+    background-color: #C9BFBA;
 }
 
 .dark-design .accent-color-2 {
-    background-color: firebrick;
+    background-color: #E7D0B8;
 }
 
 .dark-design .accent-color-3 {
-    background-color: gold;
+    background-color: #A59A99;
+}
+
+.dark-design .accent-color-4 {
+    background-color: #EF1302;
 }
 
 .dark-design .font-color-1 {
@@ -27,7 +31,7 @@
 }
 
 .dark-design .font-color-3 {
-    background-color: #ffffff;
+    background-color: #dadbcc;
 }
 
 .dark-design .logo-outer {
@@ -39,13 +43,13 @@
 }
 
 .dark-design header {
-    background-color: coral;
-    color: #ffffff;
+    background-color: #606041;
+    color: #dadbcc;
 }
 
 .dark-design footer {
-    background-color: coral;
-    color: #ffffff;
+    background-color: #606041;
+    color: #dadbcc;
 }
 
 .dark-design .img-1 {
@@ -57,7 +61,7 @@
 }
 
 .dark-design .img-3 {
-    border-color: coral;
+    color: #dadbcc;
 }
 
 .dark-design .img-4 {
@@ -73,17 +77,18 @@
 }
 
 .dark-design a {
-    color: darkslategrey;
+    color: white;
 }
 
 .dark-design {
-    font-family: cursive;
-}
+    font-family: 'Source Code Pro', monospace;}
 
 .dark-design h1, .dark-design h2, .dark-design h3, .dark-design h4, .dark-design h5, .dark-design h6 {
-    font-family: monospace;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 .dark-design {
-    background-color: #ffffff;
+    background-color: black;
+    color:#dadbcc;
+    
 }
