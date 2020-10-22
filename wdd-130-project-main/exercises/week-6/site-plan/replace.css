@@ -19,7 +19,11 @@
 }
 
 .light-design .accent-color-3 {
-    background-color: gold;
+    background-color:#A59A99;
+}
+
+.light-design .accent-color-4 {
+    background-color:#EF1302;
 }
 
 .light-design .font-color-1 {
@@ -77,10 +81,10 @@
 }
 
 .light-design h1, .light-design h2, .light-design h3, .light-design h4, .light-design h5, .light-design h6 {
-    font-family: monospace;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 .light-design {
-    font-family: cursive;
+    font-family: 'Source Code Pro', monospace;
     background-color: #ffffff;
 }
