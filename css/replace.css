@@ -1,0 +1,106 @@
+header, footer {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #606041;
+    color: #dadbcc;
+}
+
+
+#logo {
+    width: 75px;
+    height: 75px;
+}
+.company-name{
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+nav {
+    margin: auto;
+}
+#legal{
+    margin: auto;
+}
+ .primary-color-1 {
+    background-color: #7A7F4F;
+}
+
+ .primary-color-2 {
+    background-color: #505055;
+}
+
+ .primary-color-3 {
+    background-color: #989D75;
+}
+
+ .accent-color-1 {
+    background-color: #C9BFBA;
+}
+
+ .accent-color-2 {
+    background-color: #E7D0B8;
+}
+
+ .accent-color-3 {
+    background-color:#A59A99;
+}
+
+ .accent-color-4 {
+    background-color:#EF1302;
+}
+
+ .font-color-1 {
+    background-color: #000000;
+}
+
+ .font-color-3 {
+    background-color: #dadbcc;
+}
+
+.logo-outer {
+    background-color: aquamarine;
+}
+
+ .logo-inner {
+    background-color: blueviolet;
+}
+
+ .img-1 {
+    border-color: aquamarine;
+}
+
+ .img-2 {
+    border-color: blueviolet;
+}
+
+ .img-3 {
+    color: #dadbcc;
+}
+
+ .img-4 {
+    border-color: darkslategrey;
+}
+
+ .img-5 {
+    border-color: firebrick;
+}
+
+ .img-6 {
+    border-color: gold;
+}
+
+a {
+    color: white;
+}
+.url {
+    color: blue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+main{
+    font-family: 'Source Code Pro', monospace;
+    background-color: #ffffff;
+}
