@@ -4,7 +4,6 @@ header, footer {
     color: #dadbcc;
 }
 
-
 #logo {
     width: 75px;
     height: 75px;
@@ -21,6 +20,26 @@ nav {
 #legal{
     margin: auto;
 }
+
+.index_main{ /* index page */
+    display: flex;
+    justify-content: space-between; 
+    background-color: #989D75 ; 
+}
+#welcome{ /* index page */
+    text-align: center;
+    margin: auto;
+    line-height: 250%;
+
+
+}
+#banner{ /* index page */
+    margin: 20px;
+    padding: 0;
+    width: 600px;
+    height: 500px;
+}
+
  .primary-color-1 {
     background-color: #7A7F4F;
 }
