@@ -3,11 +3,9 @@ header, footer {
     background-color: #606041;
     color: #dadbcc;
 }
-main{
-
-
-
+/*main{
 }
+*/
 #logo {
     width: 75px;
     height: 75px;
@@ -25,24 +23,89 @@ nav {
     margin: auto;
 }
 
-.index_main{ /* index page */
+main{
+    font-family: 'Source Code Pro', monospace;
+    background-color: #989D75 ; 
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+/* Index page*/
+.index_main{ 
     display: flex;
     justify-content: space-between; 
     background-color: #989D75 ; 
 }
-#welcome{ /* index page */
+#welcome{ 
     text-align: center;
     margin: auto;
     line-height: 250%;
 
 
 }
-#banner{ /* index page */
+#banner{ 
     margin: 20px;
     padding: 0;
     width: 600px;
     height: 500px;
 }
+
+/* Products page*/
+
+.product_main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    width: 320px;
+    max-height: 380px;
+    margin: 20px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px;
+    background-color: white;       
+}
+
+.img-wrap{
+    grid-row: 1;
+}
+
+.content-wrap{
+    grid-row: 2;
+    padding: 10px;
+}
+
+.control-wrap{
+    grid-row: 3;
+    padding: 10px;
+}
+.view{
+    background-color: white;
+    border: 1px solid #000000;
+    color: grey;
+    border-radius: 4px 0 0 4px;
+    padding: 5px 7px 5px 5px;
+    margin: 0px;
+}
+.edit{
+    background-color: white;
+    border: 1px solid #000000;
+    color: grey;
+    border-radius: 0 4px 4px 0;
+    padding: 5px 5px 5px 7px;
+    margin: 0px;
+    margin-left: -12px;
+}
+.time{
+    float: right;
+}
+
+
 
  .primary-color-1 {
     background-color: #7A7F4F;
@@ -110,7 +173,3 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
-main{
-    font-family: 'Source Code Pro', monospace;
-    background-color: #989D75 ; 
-}
