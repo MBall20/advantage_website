@@ -6,7 +6,6 @@ header, footer {
     background-color: #606041;
     color: #dadbcc;
 }
-
 #logo {
     width: 75px;
     height: 75px;
@@ -23,7 +22,6 @@ nav {
 #legal{
     margin: auto;
 }
-
 main{
     font-family: 'Source Code Pro', monospace;
     background-color: #989D75 ; 
@@ -34,6 +32,7 @@ main{
 
 
 /* Index page*/
+
 .index_main{ 
     display: flex;
     justify-content: space-between; 
@@ -56,10 +55,36 @@ main{
 /* Products page*/
 
 .product_main{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+
 }
+.mp5{
+    grid-row: 1;
+    grid-column: 1;
+}
+.m4{
+    grid-row: 1;
+    grid-column: 2;
+}
+.h8r{
+    grid-row: 2;
+    grid-column: 1;
+}
+.glock{
+    grid-row: 2;
+    grid-column: 2;
+}
+.sniper{
+    grid-row: 3;
+    grid-column: 1;
+}
+.thunderB{
+    grid-row: 3;
+    grid-column: 2;
+}
+
 .card {
     display: grid;
     grid-template-columns: 1fr;
@@ -99,7 +124,7 @@ main{
     padding: 5px 7px 5px 5px;
     margin: 0px;
 }
-.edit{
+.purchase{
     background-color: white;
     border: 1px solid #000000;
     color: grey;
@@ -113,6 +138,7 @@ main{
 }
 
 /* Wireframe Page */
+
 #wireframes_main{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -171,9 +197,10 @@ main{
     grid-column: 1;
     width: 400px;
     height: 200px;
-    margin: 20px;
-    
+    margin: 20px;  
 }
+
+
 
 
  .primary-color-1 {
@@ -210,22 +237,6 @@ main{
 
  .font-color-3 {
     background-color: #dadbcc;
-}
-
-.logo-outer {
-    background-color: aquamarine;
-}
-
- .logo-inner {
-    background-color: blueviolet;
-}
-
- .img-1 {
-    border-color: aquamarine;
-}
-
- .img-2 {
-    border-color: blueviolet;
 }
 
  .img-3 {
