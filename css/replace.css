@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+
+/* Everything*/
+
 header, footer {
     font-family: 'Source Code Pro', monospace;
     background-color: #606041;
@@ -30,6 +33,12 @@ main{
     padding: 1em;
 }
 
+/* About */
+
+.map{
+    width: 400px;
+    height: 350px;
+}
 
 /* Index page*/
 
@@ -51,6 +60,7 @@ main{
     width: 600px;
     height: 500px;
 }
+
 
 /* Products page*/
 
@@ -110,11 +120,13 @@ main{
 .content-wrap{
     grid-row: 2;
     padding: 10px;
+    text-align: center;
 }
 
 .control-wrap{
     grid-row: 3;
     padding: 10px;
+    
 }
 .view{
     background-color: white;
@@ -136,6 +148,62 @@ main{
 .price{
     float: right;
 }
+
+
+/* Reviews */
+
+.reviews_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+
+}
+.review_1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.review_2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.review_3{
+    grid-row: 2;
+    grid-column: 1;
+}
+.review_4{
+    grid-row: 2;
+    grid-column: 2;
+}
+.review_5{
+    grid-row: 3;
+    grid-column: 1;
+}
+.review_6{
+    grid-row: 3;
+    grid-column: 2;
+}
+.review_card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    width: 400px;
+    max-height: 380px;
+    margin: 20px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 25px;
+    text-align: center;
+    background-color: white; 
+    overflow: hidden;      
+}
+.control-wrap{
+    grid-row: 3;
+    padding: 10px;
+    
+}
+.date{
+    float: right;
+}
+
 
 /* Wireframe Page */
 
@@ -202,7 +270,6 @@ main{
 
 
 
-
  .primary-color-1 {
     background-color: #7A7F4F;
 }
@@ -252,4 +319,3 @@ a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
-
