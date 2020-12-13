@@ -28,17 +28,44 @@ nav {
 main{
     font-family: 'Source Code Pro', monospace;
     background-color: #989D75 ; 
-    max-width: 900px;
+    width: 1000px;
     margin: 0 auto;
     padding: 1em;
 }
 
 /* About */
 
+#main_about{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr ;
+    grid-template-rows: auto auto 1fr ;
+}
+.h2_about{
+    grid-row: 1;
+    grid-column: 1;
+}
+.airsoft_about{
+    grid-row: 2;
+    grid-column: 1 / span 4;
+}
+
+.history_about{
+    grid-row: 3;
+    grid-column: 2 / span 4;
+    margin: 20px;
+}
+#map_outline{
+    grid-row: 3;
+    grid-column: 1;
+}
 .map{
     width: 400px;
     height: 350px;
+    margin: 25px 0;
+
 }
+
+
 
 /* Index page*/
 
@@ -99,17 +126,17 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr auto;
-    width: 320px;
+    width: 400px;
     max-height: 380px;
-    margin: 20px;
+    margin: 50px;
     box-shadow: 1px 1px 4px 1px #888;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: white; 
     overflow: hidden;      
 }
 
 .image{
-    width: 320px;
+    width: 400px;
     height: 200px;
 }
 
@@ -158,39 +185,40 @@ main{
     grid-template-rows: 1fr 1fr ;
 
 }
-.review_1{
+.review_6{
     grid-row: 1;
     grid-column: 1;
 }
-.review_2{
+.review_5{
     grid-row: 1;
     grid-column: 2;
-}
-.review_3{
-    grid-row: 2;
-    grid-column: 1;
 }
 .review_4{
     grid-row: 2;
+    grid-column: 1;
+}
+.review_3{
+    grid-row: 2;
     grid-column: 2;
 }
-.review_5{
+.review_2{
     grid-row: 3;
     grid-column: 1;
 }
-.review_6{
+.review_1{
     grid-row: 3;
     grid-column: 2;
 }
 .review_card{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr auto;
+    grid-template-rows: 1fr  auto;
     width: 400px;
     max-height: 380px;
-    margin: 20px;
+    margin: 40px;
+    padding: 10px;
     box-shadow: 1px 1px 4px 1px #888;
-    border-radius: 25px;
+    border-radius: 50px;
     text-align: center;
     background-color: white; 
     overflow: hidden;      
@@ -223,49 +251,49 @@ main{
     grid-column: 1;
     width: 400px;
     height: 200px;
-    margin: 20px;
+    margin: 50px;
 }
 .wire_image2{
     grid-row: 2;
     grid-column: 2;
     width: 400px;
     height: 200px;
-    margin: 20px;
+    margin: 50px;
 }
 .wire_image3{
     grid-row: 3;
     grid-column: 1;
     width: 400px;
     height: 200px;
-    margin: 20px;
+    margin: 50px;
 }
 .wire_image4{
     grid-row: 3;
     grid-column: 2;
     width: 400px;
     height: 200px;
-    margin: 20px;
+    margin: 50px;
 }
 .wire_image5{
     grid-row: 4;
     grid-column: 1;
     width: 400px;
     height: 200px;
-    margin: 20px;
+    margin: 50px;
 }
 .wire_image6{
     grid-row: 4;
     grid-column: 2;
     width: 400px;
     height: 200px;
-    margin: 20px;
+    margin: 50px;
 }
 .wire_image7{
     grid-row: 5;
     grid-column: 1;
     width: 400px;
     height: 200px;
-    margin: 20px;  
+    margin: 50px;  
 }
 
 
