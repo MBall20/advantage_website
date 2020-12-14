@@ -232,8 +232,6 @@ main{
 #review_banner{
     width: 1000px;
     height: 400px;
-    padding: -15px;
-    margin: 0;
     grid-column: 1/ span 2;
     grid-row: 1;
 }
