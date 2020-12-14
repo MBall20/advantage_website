@@ -38,7 +38,7 @@ main{
 #main_about{
     display: grid;
     grid-template-columns: auto 1fr 1fr 1fr ;
-    grid-template-rows: auto auto 1fr ;
+    grid-template-rows: auto auto 1fr 1fr 1fr;
 }
 .h2_about{
     grid-row: 1;
@@ -55,14 +55,58 @@ main{
     margin: 20px;
 }
 #map_outline{
-    grid-row: 3;
+    grid-row: 3 / spann 5;
     grid-column: 1;
 }
 .map{
     width: 400px;
     height: 350px;
     margin: 25px 0;
-
+}
+.image_joseph{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px black;
+}
+#name_joseph{
+    grid-column: 2;
+    grid-row: 5;
+    margin: 0 auto;
+    text-align: center;
+}
+.image_derrick{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    grid-column: 3;
+    grid-row: 4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px black;
+}
+#name_derrick{
+    grid-column: 3;
+    grid-row: 5;
+    margin: 0 auto;
+    text-align: center;
+}
+.image_colby{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    grid-column: 4;
+    grid-row: 4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px black;
+}
+#name_colby{
+    grid-column: 4;
+    grid-row: 5;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
